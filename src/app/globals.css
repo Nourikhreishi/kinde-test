@@ -111,6 +111,12 @@ a {
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--g-spacing-base);
+  }
+}
+
 .nav {
   align-items: center;
   display: flex;
@@ -197,6 +203,12 @@ a {
 .start-hero {
   padding: var(--g-spacing-2x-large);
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .start-hero {
+    padding: var(--g-spacing-base);
+  }
 }
 
 .start-hero-intro {
